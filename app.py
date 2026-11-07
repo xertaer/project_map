@@ -1,7 +1,8 @@
 # app.py
 import os
 import base64
-from flask import Flask, render_template, Markup
+from flask import Flask, render_template
+from markupsafe import Markup
 from data import DISCOVERERS
 
 app = Flask(__name__)
