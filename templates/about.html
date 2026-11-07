@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="p-5 mb-4 bg-white rounded-3 shadow-sm border">
+            <div class="container-fluid py-2">
+                <h1 class="display-6 fw-bold text-dark">О проекте</h1>
+                <p class="fs-5 mt-3 text-secondary">
+                    Этот интерактивный веб-атлас создан для того, чтобы наглядно продемонстрировать масштаб научных и географических подвигов российских первопроходцев, чьи имена навсегда вписаны в мировую картографию.
+                </p>
+                <hr class="my-4">
+                <h5 class="fw-bold">Технологический стек приложения:</h5>
+                <ul>
+                    <li><strong>Python & Flask</strong> — серверная логика и маршрутизация страниц.</li>
+                    <li><strong>Яндекс Карты (JavaScript API 2.1)</strong> — интерактивная визуализация географических точек.</li>
+                    <li><strong>Bootstrap 5</strong> — адаптивная верстка и базовые компоненты интерфейса.</li>
+                </ul>
+                <p class="text-muted mt-4">
+                    Проект имеет модульную архитектуру, где данные о локациях полностью изолированы от логики отображения. Это позволяет легко масштабировать базу объектов.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
